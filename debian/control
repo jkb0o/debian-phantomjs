@@ -1,0 +1,12 @@
+Source: phantomjs
+Section: universe/web
+Priority: extra
+Maintainer: Yasha Borevich <jjay@ostrovok.ru>
+Build-Depends: debhelper (>= 7)
+
+Package: phantomjs
+Architecture: any
+Depends: ${misc:Depends}
+Description: Oneric version of phantomjs
+ metapackage
+

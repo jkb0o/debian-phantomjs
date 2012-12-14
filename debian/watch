@@ -1,0 +1,3 @@
+version=3
+http://phantomjs.org/download.html \
+    http://phantomjs.googlecode.com/files/phantomjs-(.*?)-linux-x86_64.tar.bz2 debian ./debian/update

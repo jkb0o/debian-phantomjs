@@ -1,0 +1,12 @@
+#!/bin/bash
+VERSION=$2
+PKG=phantomjs-$VERSION-linux-x86_64
+dch --newversion $VERSION Autoupdate
+
+bunzip2 $PKG.tar.bz2
+tar -xvf $PKG.tar
+cp $PKG/bin/phantomjs phantomjs
+rm $PKG.tar
+rm $PKG.tar.bz2
+rm -fr $PKG
+debuild || true

@@ -1,0 +1,5 @@
+phantomjs (0.0) unstable; urgency=low
+
+  * Initial release of oneric version of phantomjs
+
+ -- Borevich Yakov (jjay) <jjay@ostrovok.ru>  Tue, 13 Dec 2012 15:56:20 +0400
